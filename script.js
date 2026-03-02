@@ -11,7 +11,7 @@ const figures = [
     title:'Bar Graph',
     href:'#',
     thumbnail:'assets/heart_rate_bargraph_final.png',
-    image:'assets/heart_rate_bargraph_final.png',
+    image:'assets/heart_rate_bargraph_final_popup.png',
     caption:'Mean heart rate under different exercise conditions. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.',
     figureType:'Graph',
     functionPurpose:'Explanatory',
