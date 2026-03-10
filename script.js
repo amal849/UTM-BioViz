@@ -51,13 +51,41 @@ const figures = [
       misconceptionDetail:'"Species on the left, like humans, are more evolved than species on the right." WRONG! The species are not arranged in a particular order (i.e., most evolved to least evolved). Remember that branches are able to rotate, changing the order of the species.'
     }
   },
-  {id:6, title:'Food Web', href:'#', thumbnail:'assets/food-web.png', modalImageWidth:'85%',image:'assets/food-web.png', caption:'Food web illustrating trophic interactions among selected terrestrial organisms. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Animal silhouettes sourced from <a href="https://www.phylopic.org/" target="_blank" rel="noopener">PhyloPic</a> (<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a>).', figureType:'Diagram', functionPurpose:'Organizational', topic:'Ecology', tags:['Food Web','Diagram','Organizational','Ecology']},
-  {id:7, title:'Muscle Contraction', href:'#', thumbnail:'assets/muscle-contraction-thumb.png', figureType:'Diagram', functionPurpose:'Explanatory', topic:'Physiology', tags:['Muscle Contraction','Diagram','Explanatory','Physiology'], image:'assets/muscle-contraction-thumb.png', modalImageWidth:'70%', caption:'Muscle contraction mechanism. DataBase Center for Life Science (DBCLS), <em>Mechanism of skeletal muscle contraction</em>, 2021. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.'},
-  {id:8, title:'Negative Feedback Loop', href:'#', thumbnail:'assets/Negative-Feedback-Loops.png', image:'assets/Negative-Feedback-Loops2.png', caption:'Negative feedback loop regulating body temperature homeostasis. OpenStax, <em>Negative Feedback Loops</em>, 2016. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.', figureType:'Diagram', functionPurpose:'Explanatory', topic:'Physiology', tags:['Negative Feedback Loop','Diagram','Explanatory','Physiology','Feedback Loops']},
-  {id:9, title:'Positive Feedback Loop', href:'#', thumbnail:'assets/Pregnancy-Positive-Feedback.png', image:'assets/Pregnancy-Positive-Feedback.png', caption:'Positive feedback loop driving childbirth. OpenStax, <em>Pregnancy: Positive Feedback</em>, 2016. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.', figureType:'Diagram', functionPurpose:'Explanatory', topic:'Physiology', tags:['Positive Feedback Loop','Diagram','Explanatory','Physiology','Feedback Loops']},
+  {
+    id:6,
+    title:'Food Web',
+    href:'#',
+    thumbnail:'assets/food-web.png',
+    modalImageWidth:'85%',
+    image:'assets/food-web.png',
+    caption:'Food web illustrating trophic interactions among selected terrestrial organisms. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Animal silhouettes sourced from <a href="https://www.phylopic.org/" target="_blank" rel="noopener">PhyloPic</a> (<a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0 Universal</a>).',
+    figureType:'Diagram',
+    functionPurpose:'Organizational',
+    topic:'Ecology',
+    tags:['Food Web','Diagram','Organizational','Ecology'],
+    modalContent:{
+      whatIsThis:'Food webs represent feeding relationships of various species within an ecosystem.',
+      howToUnderstand:[
+        'Step 1 - Notice how the species in this diagram are divided into ascending trophic levels: primary producers (oak tree, green shrimp plant, and grass), primary consumers (rabbit, bird, and squirrel), secondary consumers (fox and snake), and tertiary consumers (lion, owl, and tiger).',
+        'Step 2 - Also, notice how each species in this food web (excluding primary producers) acts as both prey and predator because they have arrows pointing to them and arrows pointing away from them. In this diagram, all the arrows are pointing upwards, meaning that energy is flowing from the food item to the consumer.',
+        '• For example, the oak tree is being consumed by the rabbit, and the rabbit is being consumed by the lion.',
+        'Step 3 - Begin by looking at the primary producers. Although food webs do not necessarily have starting points, energy flow in food webs can be interpreted as flowing from primary producers to tertiary consumers eventually.',
+        'Step 4 - Next, look at how energy is flowing to and from the primary consumers. Unlike a food chain, species within a food web can consume more than one prey and be consumed by more than one predator.',
+        '• For instance, the bird consumes the green shrimp plant and grass, and is consumed by the fox, snake, and owl.',
+        'Step 5 - Continue observing energy flow between trophic levels by following the arrows to see where they end up.'
+      ],
+      quickFacts:[
+        'Upward arrows symbolize the energy flow from food item to consumer.'
+      ],
+      misconceptionTitle:'"You can infer the strength of the relationship between the prey and predator by the length of the arrows. For example, foxes are preyed on by both lions and owls, but the shorter arrow pointing from the fox towards the lion might allude to foxes being preyed on by lions more than owls."',
+      misconceptionWrongHtml:'<strong>WRONG!</strong> The strength of a relationship between species is determined by the thickness of an arrow. In this figure, you cannot infer the relationship between species by the length of the arrows.',
+      misconceptionDetail:'The length of arrows in a food web does not indicate the strength of a predator-prey relationship.'
+    }
+  },
+  {id:7, title:'Process Diagram', href:'#', thumbnail:'assets/muscle-contraction-thumb.png', figureType:'Diagram', functionPurpose:'Explanatory', topic:'Physiology', tags:['Process Diagram','Diagram','Explanatory','Physiology'], image:'assets/muscle-contraction-thumb.png', modalImageWidth:'70%', caption:'Muscle contraction mechanism. DataBase Center for Life Science (DBCLS), <em>Mechanism of skeletal muscle contraction</em>, 2021. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.'},
   {
     id:10,
-    title:'Calcium Homeostasis',
+    title:'Feedback Loop',
     href:'#',
     thumbnail:'assets/calcium-homeostasis.png',
     image:'assets/calcium-homeostasis.png',
@@ -66,7 +94,7 @@ const figures = [
     figureType:'Diagram',
     functionPurpose:'Explanatory',
     topic:'Physiology',
-    tags:['Calcium Homeostasis','Diagram','Explanatory','Physiology','Calcium'],
+    tags:['Feedback Loop','Diagram','Explanatory','Physiology','Calcium'],
     modalContent:{
       whatIsThis:'This is a diagram illustrating calcium homeostasis, a fundamental regulatory mechanism in maintaining healthy calcium levels in the body.',
       howToUnderstand:[
