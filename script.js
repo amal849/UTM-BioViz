@@ -65,14 +65,14 @@ const figures = [
     modalContent:{
       whatIsThis:'Food webs represent feeding relationships of various species within an ecosystem.',
       howToUnderstand:[
-        'Step 1 - Notice how the species in this diagram are divided into ascending trophic levels: primary producers (oak tree, green shrimp plant, and grass), primary consumers (rabbit, bird, and squirrel), secondary consumers (fox and snake), and tertiary consumers (lion, owl, and tiger).',
-        'Step 2 - Also, notice how each species in this food web (excluding primary producers) acts as both prey and predator because they have arrows pointing to them and arrows pointing away from them. In this diagram, all the arrows are pointing upwards, meaning that energy is flowing from the food item to the consumer. For example, the oak tree is being consumed by the rabbit, and the rabbit is being consumed by the lion.',
-        'Step 3 - Begin by looking at the primary producers. Although food webs do not necessarily have starting points, energy flow in food webs can be interpreted as flowing from primary producers to tertiary consumers eventually.',
-        'Step 4 - Next, look at how energy is flowing to and from the primary consumers. Unlike a food chain, species within a food web can consume more than one prey and be consumed by more than one predator. For instance, the bird consumes the green shrimp plant and grass, and is consumed by the fox, snake, and owl.',
-        'Step 5 - Continue observing energy flow between trophic levels by following the arrows to see where they end up.'
+        'Step 1 - Notice how the species in this diagram are arranged in rows based on their roles in the food web: producers (plants and grains), primary consumers (rabbit, mouse, grasshopper), secondary consumer (bird), and tertiary consumers (fox and owl).',
+        'Step 2 - Also, notice how some species in this food web act as both prey and predator because they have arrows pointing to them and arrows pointing away from them. In this diagram, all the arrows are pointing upwards, meaning that energy is flowing from the food item to the consumer. For example, the plants are consumed by the rabbit, and the rabbit is consumed by the fox.',
+        'Step 3 - Begin by looking at the producers. Although food webs do not necessarily have starting points, energy flow in food webs can be interpreted as flowing from producers to higher-level consumers eventually.',
+        'Step 4 - Next, look at how energy is flowing to and from the primary consumers. Unlike a food chain, species within a food web can consume more than one food source and be consumed by more than one predator. For instance, the grasshopper consumes plants, and is consumed by the bird, owl, and fox.',
+        'Step 5 - Continue observing energy flow between the rows by following the arrows to see where they end up.'
       ],
       quickFacts:[
-        'Upward arrows symbolize the energy flow from food item to consumer.'
+        'Arrows symbolize the energy flow from food item to consumer.'
       ],
       misconceptionTitle:'"Plants do not have an energy source in this food web."',
       misconceptionWrongHtml:'',
