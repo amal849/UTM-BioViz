@@ -16,7 +16,20 @@ const figures = [
     figureType:'Graph',
     functionPurpose:'Explanatory',
     topic:'Ecology, Physiology, Genetics',
-    tags:['Bar Graph','Graph','Explanatory','Ecology','Physiology','Genetics','Heart Rate','Exercise']
+    tags:['Bar Graph','Graph','Explanatory','Ecology','Physiology','Genetics','Heart Rate','Exercise'],
+    modalContent:{
+      whatIsThis:'This is a bar graph representing mean heart rate (beats per minute) under different exercise conditions. Bar graphs are useful for summarizing and visualizing the differences between two or more datasets. They can either display the number of counts in each category or represent summaries of each dataset (like in the figure above!).',
+      howToUnderstand:[
+        'Step 1 - Bar graphs use rectangular bars with lengths that are proportional to the values they represent to compare categorical data. Here, the categorical data (exercise conditions) are typically displayed on the x-axis, while the quantitative dependent variable (mean heart rate) is displayed on the y-axis.',
+        'Step 2 - The graph here shows two things: the mean and the 95% confidence interval of the mean. The mean is visualized as the height of each bar, whereas the 95% confidence interval is shown as the range around the mean located between the upper and lower bounds.',
+        'Step 3 - Compare datasets to observe the differences between the means. In our figure, there is a clear increasing trend, with the lowest being the rest category and the highest being the sprinting category.',
+        'Step 4 - Compare datasets to observe the differences between the confidence intervals. A shorter error bar indicates a more accurate estimate of the confidence interval, whereas a longer error bar indicates a less accurate estimate of the confidence interval. For example, the confidence interval for cycling is more accurate than the confidence interval for sprinting.'
+      ],
+      quickFacts:[],
+      misconceptionTitle:'"All error bars represent the 95% confidence interval."',
+      misconceptionWrongHtml:'',
+      misconceptionDetail:'There are different types of error bars, such as standard deviation error bars, standard error (SE) error bars, and 95% confidence interval error bars. Since they look similar, it is important to identify which one is being used.'
+    }
   },
   {id:2, title:'Line Graph', href:'#', thumbnail:'assets/heart_rate_linegraph.png', image:'assets/heart_rate_linegraph.png', caption:'Bone density across age. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Physiology, Ecology', tags:['Line Graph','Graph','Explanatory','Physiology','Ecology']},
   {id:3, title:'Scatter Plot', href:'#', thumbnail:'assets/sleepduration_screentime_scatterplot.png', image:'assets/sleepduration_screentime_scatterplot.png', caption:'Sleep duration versus daily screen time. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Ecology, Genetics, Physiology', tags:['Scatter Plot','Graph','Explanatory','Ecology','Genetics','Physiology']},
