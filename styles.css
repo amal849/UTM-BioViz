@@ -28,7 +28,7 @@
 .figure-modal-backdrop{
   position: fixed;
   inset: 0;
-  background: rgba(34,52,116,0.18); /* dim overlay behind popup */
+  background: rgba(34,52,116,0.18);
   z-index: 1000;
   display: flex;
   align-items: center;
