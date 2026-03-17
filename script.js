@@ -25,15 +25,20 @@ const figures = [
         'Step 3 - Compare datasets to observe the differences between the means. In our figure, there is a clear increasing trend, with the lowest being the rest category and the highest being the sprinting category.',
         'Step 4 - Compare datasets to observe the differences between the confidence intervals. A shorter error bar indicates a more accurate estimate of the confidence interval, whereas a longer error bar indicates a less accurate estimate of the confidence interval. For example, the confidence interval for cycling is more accurate than the confidence interval for sprinting.'
       ],
-      quickFacts:[],
+      quickFacts:[
+        'Bar graphs show categorical data, where each bar represents a different group or category (e.g., Rest, Walking, Jogging).',
+        'Bar graphs usually have spaces between bars, while histogram bars touch because the data represent continuous intervals.'
+      ],
       misconceptionTitle:'"All error bars represent the 95% confidence interval."',
       misconceptionWrongHtml:'',
-      misconceptionDetail:'There are different types of error bars, such as standard deviation error bars, standard error (SE) error bars, and 95% confidence interval error bars. Since they look similar, it is important to identify which one is being used.'
+      misconceptionDetail:'Different error bars show different types of variability in the data. Common examples include standard deviation error bars, standard error (SE) error bars, and 95% confidence interval error bars. Because these error bars can look similar, it is important to identify which type is being used.'
     }
   },
   {id:2, title:'Line Graph', href:'#', thumbnail:'assets/heart_rate_linegraph.png', image:'assets/heart_rate_linegraph.png', caption:'Bone density across age. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Physiology, Ecology', tags:['Line Graph','Graph','Explanatory','Physiology','Ecology']},
   {id:3, title:'Scatter Plot', href:'#', thumbnail:'assets/sleepduration_screentime_scatterplot.png', image:'assets/sleepduration_screentime_scatterplot.png', caption:'Sleep duration versus daily screen time. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Ecology, Genetics, Physiology', tags:['Scatter Plot','Graph','Explanatory','Ecology','Genetics','Physiology']},
   {id:4, title:'Histogram', href:'#', thumbnail:'assets/petal_length_histogram.png', image:'assets/petal_length_histogram.png', caption:'Distribution of petal length. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Ecology, Genetics, Physiology', tags:['Histogram','Graph','Explanatory','Ecology','Genetics','Physiology']},
+  {id:11, title:'Heat Map', href:'#', thumbnail:'assets/heatmap.png', image:'assets/heatmap.png', caption:'Heat map. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Ecology, Physiology, Genetics', tags:['Heat Map','Graph','Explanatory','Ecology','Physiology','Genetics']},
+  {id:12, title:'Box Plot', href:'#', thumbnail:'assets/boxplot.png', image:'assets/boxplot.png', caption:'Box plot. Created by Amal Shahzad, 2026. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. <em>Data shown are simulated for educational purposes.</em>', figureType:'Graph', functionPurpose:'Explanatory', topic:'Ecology, Physiology, Genetics', tags:['Box Plot','Graph','Explanatory','Ecology','Physiology','Genetics']},
   {
     id:5,
     title:'Phylogenetic Tree',
@@ -50,7 +55,7 @@ const figures = [
       howToUnderstand:[
         'Step 1 - Begin by looking at the root of the tree. This represents the population leading to the common ancestor of all the taxa at the tips of the branches. As you move from bottom to top on the diagram, you move forward in time, and evolution occurs, giving rise to many lineage branches.',
         'Step 2 - Each common ancestor is represented by a node on the diagram. Notice how after the first speciation event (when a common ancestor lineage splits into two or more daughter lineages), there are two daughter lineages: one forming an outgroup (right) and the other a clade (left).',
-        'Step 3 - Notice how the outgroup branches off at the base of the tree? This shows that the platypus lineage diverged earlier than the other species and is more genetically distinct from the species within a clade.',
+        'Step 3 - Notice how the outgroup branches off at the base of the tree? This shows that the platypus lineage diverged earlier than the other species and is more genetically or morphologically distinct from the species within a clade.',
         'Step 4 - Next, look at the clade on the left. Observe how there are many different lineage branches within this clade. Species within a clade are more closely related than the outgroup. For example, gorillas and horses are more closely related to each other than horses and platypuses, because gorillas and horses share a more recent common ancestor on the tree.',
         'Step 5 - Determine species relatedness by identifying the most recent common ancestor (nodes). Work your way up by observing the nodes and determining where the lineage branches end up.'
       ],
@@ -78,14 +83,15 @@ const figures = [
     modalContent:{
       whatIsThis:'Food webs represent feeding relationships of various species within an ecosystem.',
       howToUnderstand:[
-        'Step 1 - Notice how the species in this diagram are arranged in rows based on their roles in the food web: producers (plants and grains), primary consumers (rabbit, mouse, grasshopper), secondary consumer (bird), and tertiary consumers (fox and owl).',
+        'Step 1 - Notice how the species in this diagram are arranged based on their roles in the food web. Plants and grains are producers. Animals that eat plants are primary consumers (rabbit, mouse, and grasshopper). Animals that eat other animals are secondary or tertiary consumers (fox and owl). Some organisms can have more than one role depending on what they eat. For example, the bird is a primary consumer when it eats grains, but a secondary consumer when it eats the grasshopper.',
         'Step 2 - Also, notice how some species in this food web act as both prey and predator because they have arrows pointing to them and arrows pointing away from them. In this diagram, all the arrows are pointing upwards, meaning that energy is flowing from the food item to the consumer. For example, the plants are consumed by the rabbit, and the rabbit is consumed by the fox.',
         'Step 3 - Begin by looking at the producers. Although food webs do not necessarily have starting points, energy flow in food webs can be interpreted as flowing from producers to higher-level consumers eventually.',
         'Step 4 - Next, look at how energy is flowing to and from the primary consumers. Unlike a food chain, species within a food web can consume more than one food source and be consumed by more than one predator. For instance, the grasshopper consumes plants, and is consumed by the bird, owl, and fox.',
         'Step 5 - Continue observing energy flow between the rows by following the arrows to see where they end up.'
       ],
       quickFacts:[
-        'Arrows symbolize the energy flow from food item to consumer.'
+        'Arrows symbolize the energy flow from food item to consumer.',
+        'Animals can have more than one role in a food web depending on what they eat.'
       ],
       misconceptionTitle:'"Plants do not have an energy source in this food web."',
       misconceptionWrongHtml:'',
@@ -298,6 +304,7 @@ const modalTitle = document.getElementById('modal-title');
 const modalImage = document.getElementById('modal-image');
 const modalCaption = document.getElementById('modal-caption');
 const modalPill = document.getElementById('figure-modal-pill');
+const modalHotspotInstruction = modal.querySelector('.figure-hotspot-instruction');
 const modalWhatIsThis = document.getElementById('modal-what-is-this');
 const modalHowUnderstand = document.getElementById('modal-how-understand');
 const modalQuickFacts = document.getElementById('modal-quick-facts');
@@ -429,8 +436,15 @@ function openModal(card) {
 
   const figureId = card.getAttribute('data-figure-id');
   const figure = figures.find(f => String(f.id) === String(figureId));
+  const hasHotspots = Boolean(hotspotConfigs[String(figureId)]);
 
   if (!figure) return;
+
+  if (modalHotspotInstruction) {
+    modalHotspotInstruction.style.display = hasHotspots ? 'block' : 'none';
+  }
+
+  modal.classList.toggle('has-hotspot-instruction', hasHotspots);
 
   // Pill: FigureType | Topic | FunctionPurpose
   // Show all topics
@@ -443,7 +457,7 @@ function openModal(card) {
   // For Muscle Contraction, this will use: assets/muscle-contraction.png
   modalImage.src = figure.image || 'assets/placeholder.png';
   modalImage.alt = `${figure.title} figure`;
-  modalImage.style.width = figure.modalImageWidth || '';
+  modalImage.style.width = '100%';
 
   // Caption: set the figure caption if available
   if (modalCaption) {
@@ -489,7 +503,7 @@ function openModal(card) {
   document.addEventListener('keydown', handleModalKey);
   
   // Inject hotspots for figures with configured annotations
-  if (hotspotConfigs[String(figureId)]) {
+  if (hasHotspots) {
     setTimeout(() => {
       injectHotspots(figureId);
     }, 50);
@@ -692,24 +706,27 @@ function createHotspotHTML(figureId) {
 function injectHotspots(figureId) {
   if (!hotspotConfigs[String(figureId)]) return;
 
-  // Check if hotspots already exist
   const existingContainer = modalImage.parentElement.querySelector('.figure-container');
   if (existingContainer) {
-    return; // Hotspots already injected
+    return;
   }
 
-  // Wrap the image in a figure-container
+  const figure = figures.find(f => String(f.id) === String(figureId));
+
   const container = document.createElement('div');
   container.className = 'figure-container';
-  
-  // Insert hotspot HTML
+
+  if (figure?.modalImageWidth) {
+    container.style.width = figure.modalImageWidth;
+  } else {
+    container.style.width = '100%';
+  }
+
   container.innerHTML = createHotspotHTML(figureId);
-  
-  // Move the image into the container
+
   modalImage.parentElement.insertBefore(container, modalImage);
   container.insertBefore(modalImage, container.firstChild);
-  
-  // Setup event listeners
+
   setupHotspotListeners(container);
 }
 
