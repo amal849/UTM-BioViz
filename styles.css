@@ -865,360 +865,6 @@ a:hover{
   }
 }
 
-@media (max-width: 768px) {
-  .header-inner {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    padding: 18px 14px;
-  }
-
-  .brand {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .header-logo {
-    width: min(290px, 78vw);
-    height: auto;
-  }
-
-  .nav-and-cta {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-  }
-
-  .main-nav {
-    width: 100%;
-    justify-content: center;
-    gap: 28px;
-    flex-wrap: wrap;
-  }
-
-  .main-nav a {
-    font-size: 1rem;
-    line-height: 1.2;
-  }
-
-  .site-header .btn {
-    width: auto;
-    min-width: 150px;
-    padding: 10px 18px;
-  }
-}
-
-@media (max-width: 420px) {
-  .header-logo {
-    width: min(250px, 74vw);
-  }
-
-  .main-nav {
-    gap: 20px;
-  }
-
-  .main-nav a {
-    font-size: 0.95rem;
-  }
-
-  .site-header .btn {
-    min-width: 135px;
-    font-size: 0.95rem;
-  }
-
-  .hero {
-    padding: 34px 0 30px;
-  }
-
-  .hero-title {
-    font-size: clamp(2rem, 7vw, 2.6rem);
-    line-height: 1.08;
-    padding: 0 8px;
-  }
-
-  .hero-sub {
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 14px 10px 18px;
-    font-size: 1rem;
-    line-height: 1.45;
-  }
-
-  .search-form {
-    padding: 0 10px 6px;
-  }
-
-  .search-wrap input[type="search"] {
-    font-size: 1rem;
-  }
-
-  .filters {
-    padding-top: 28px;
-  }
-
-  .filters-container {
-    padding: 0 12px;
-  }
-
-  .filters-rows {
-    gap: 18px;
-    width: 100%;
-  }
-
-  .filters-row {
-    gap: 10px;
-  }
-
-  .filter-label {
-    font-size: 1rem;
-    margin-bottom: 2px;
-  }
-
-  .chips {
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  .chip {
-    min-height: 34px;
-    padding: 0 12px;
-    font-size: 0.95rem;
-    border-radius: 999px;
-  }
-
-  .filters-clear {
-    margin-top: 2px;
-    margin-bottom: 0;
-  }
-
-  .clear-filters {
-    font-size: 1rem;
-  }
-
-  .site-footer {
-    padding: 34px 0;
-  }
-
-  .footer-inner {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 28px;
-  }
-
-  .footer-left,
-  .footer-right {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .footer-logos {
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 0;
-  }
-
-  .logo-footer {
-    height: 58px;
-    max-width: 42vw;
-    object-fit: contain;
-  }
-
-  .logo-divider {
-    display: none;
-  }
-
-  .copyright {
-    margin-top: 16px;
-    font-size: 0.98rem;
-    line-height: 1.5;
-  }
-
-  .footer-right {
-    max-width: 100%;
-  }
-
-  .footer-right h3 {
-    font-size: 2rem;
-    margin-bottom: 16px;
-  }
-
-  .footer-right form {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .footer-right input,
-  .footer-right textarea {
-    width: 100%;
-    font-size: 1rem;
-    height: 52px;
-    border-radius: 12px;
-    padding: 12px 14px;
-  }
-
-  .footer-right textarea {
-    height: 140px;
-  }
-
-  .footer-right .btn {
-    width: 100%;
-    max-width: 100%;
-    margin: 6px 0 0;
-    padding: 14px 18px;
-    font-size: 1.2rem;
-  }
-
-  .figure-modal-backdrop {
-    padding: 8px;
-    align-items: flex-start;
-  }
-
-  .figure-modal-dialog {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 8px;
-  }
-
-  .figure-modal-frame {
-    border-radius: 16px;
-  }
-
-  .figure-modal-panel {
-    padding: 14px;
-    max-height: calc(100vh - 24px);
-    border-radius: 16px;
-  }
-
-  .figure-modal-header {
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .figure-modal-pill {
-    font-size: 0.95rem;
-    line-height: 1.15;
-    padding: 10px 14px;
-    max-width: calc(100% - 44px);
-    white-space: normal;
-    border-radius: 999px;
-  }
-
-  .figure-modal-close {
-    font-size: 2rem;
-    padding: 0;
-    flex-shrink: 0;
-  }
-
-  .figure-modal-title {
-    font-size: clamp(2rem, 8vw, 2.5rem);
-    line-height: 1.05;
-    margin: 14px 0 8px;
-  }
-
-  .figure-hotspot-instruction {
-    font-size: 0.98rem;
-    line-height: 1.4;
-    margin-bottom: 14px;
-  }
-
-  .figure-modal-layout {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
-  .figure-modal-content {
-    padding: 18px;
-  }
-
-  .figure-modal-sidebar {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
-  .figure-modal-card {
-    width: 100%;
-  }
-
-  .figure-modal-section-title {
-    font-size: 1.7rem;
-    line-height: 1.1;
-  }
-
-  .figure-modal-section-content {
-    font-size: 1rem;
-    line-height: 1.55;
-  }
-
-  .figure-modal-steps div {
-    margin-top: 10px;
-    line-height: 1.5;
-  }
-
-  .figure-modal-imagebox {
-    margin-bottom: 10px;
-  }
-
-  .figure-modal-imagebox .figure-container {
-    width: 100%;
-  }
-
-  .figure-modal-image {
-    max-height: none;
-  }
-
-  .hotspot-dot {
-    width: 22px;
-    height: 22px;
-    font-size: 12px;
-  }
-
-  .hotspot-info {
-    max-width: min(220px, 72vw);
-    width: max-content;
-    font-size: 13px;
-    line-height: 1.35;
-    padding: 10px 11px;
-  }
-
-  .hotspot-info {
-    left: 50%;
-    right: auto;
-    top: calc(100% + 8px);
-    bottom: auto;
-    transform: translateX(-50%);
-  }
-
-  .hotspot[data-hotspot="myosin-head"] .hotspot-info,
-  .hotspot[data-hotspot="actin"] .hotspot-info,
-  .hotspot[data-hotspot="myosin"] .hotspot-info,
-  .calcium-pink-arrow-hotspot .hotspot-info,
-  .calcium-black-arrow-hotspot .hotspot-info,
-  .scatter-bestfit-hotspot .hotspot-info,
-  .hotspot[data-hotspot="errorbar-first"] .hotspot-info {
-    left: 50%;
-    right: auto;
-    top: calc(100% + 8px);
-    bottom: auto;
-    transform: translateX(-50%);
-    max-width: min(220px, 72vw);
-  }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-  .figure-modal-sidebar {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
-}
-
 @media (max-width: 479px) {
   .figure-modal-sidebar {
     grid-template-columns: 1fr;
@@ -1345,100 +991,6 @@ a:hover{
   }
 }
 
-@media (max-width: 420px){
-  .header-inner{
-    padding: 18px 10px;
-  }
-
-  .main-nav{
-    gap: 20px;
-  }
-
-  .main-nav a{
-    font-size: 0.88rem;
-  }
-
-  .site-header .btn{
-    padding: 7px 10px;
-    font-size: 0.88rem;
-  }
-
-  .hero{
-    padding: 40px 0;
-  }
-
-  .hero-title{
-    font-size: 24px;
-  }
-
-  .hero-sub{
-    max-width: 96%;
-    padding: 12px 6px;
-    font-size: 0.92rem;
-    line-height: 1.35;
-  }
-
-  .chip{
-    padding: 0 8px;
-    font-size: 0.86rem;
-  }
-
-  .clear-filters{
-    font-size: 0.86rem;
-  }
-
-  .search-form{
-    padding: 0 8px 6px;
-  }
-
-  .filters-container{
-    padding: 0 8px;
-  }
-
-  .footer-logos{
-    gap: 12px;
-  }
-
-  .logo-footer{
-    height: 80px;
-  }
-
-  .logo-divider{
-    height: 80px;
-  }
-
-  .footer-right{
-    max-width: 380px;
-  }
-
-  .footer-right h3{
-    font-size: 1.3rem;
-  }
-
-  .footer-right .btn{
-    width: 100%;
-    max-width: 300px;
-    font-size: 0.95rem;
-  }
-
-  .footer-right input,
-  .footer-right textarea{
-    font-size: 1rem;
-  }
-
-  .figure-modal-panel{
-    padding: 12px;
-  }
-
-  .figure-modal-title{
-    font-size: 24px;
-  }
-
-  .figure-modal-image{
-    max-height: 210px;
-  }
-}
-
 @media (min-width: 360px) and (max-width: 599px) {
   .cards-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1451,7 +1003,7 @@ a:hover{
   }
 
   .card .thumb {
-    height: 120px;
+    height: 105px;
     margin-bottom: 10px;
   }
 
@@ -1471,6 +1023,451 @@ a:hover{
   }
 }
 
+/* =========================================
+   PHONE ONLY FIXES
+   Only for phones, leave tablet and desktop unchanged
+   ========================================= */
+
+@media (max-width: 599px) {
+
+  /* Prevent horizontal overflow */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container,
+  .header-inner,
+  .hero-inner,
+  .filters-container,
+  .footer-inner,
+  .about-inner {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Header, keep same general desktop look */
+  .header-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 12px;
+  }
+
+  .brand {
+    width: auto;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+  }
+
+  .header-logo {
+    height: 44px;
+    width: auto;
+    max-width: 44vw;
+  }
+
+  .nav-and-cta {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+    min-width: 0;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+
+  .main-nav a {
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .site-header .btn {
+    min-height: 36px;
+    padding: 8px 12px;
+    font-size: 0.92rem;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+
+  /* Hero should span properly */
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero-title {
+    font-size: 33px;
+    line-height: 1.02;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hero-sub {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 18px 8px 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .search-form {
+    padding: 0;
+  }
+
+  .search-wrap {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Filters, keep normal style */
+  .filters {
+    padding-top: 36px;
+  }
+
+  .filters-container {
+    margin: 0 auto;
+    padding: 0 12px;
+    display: block;
+  }
+
+  .filters-rows {
+    width: 100%;
+    gap: 14px;
+  }
+
+  /* First row only, label on one line, chips on next */
+  .filters-row:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .filters-row:first-child .filter-label {
+    white-space: nowrap;
+    margin: 0;
+    text-align: center;
+  }
+
+  .filters-row:first-child .chips {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Keep rows 2 and 3 basically as they usually are */
+  .filters-row:not(:first-child) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .filters-row:not(:first-child) .filter-label {
+    white-space: nowrap;
+    margin: 0;
+    text-align: center;
+  }
+
+  .filters-row:not(:first-child) .chips {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Keep original chip look, no pill styling */
+  .chip {
+    border-radius: 8px;
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 0.95rem;
+  }
+
+  .filters-clear {
+    position: static;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .clear-filters {
+    font-size: 17.1px;
+  }
+
+  /* Cards can stay 2-up on phones */
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .card .thumb {
+    height: 105px;
+  }
+
+  /* About section fix */
+  .about {
+    padding: 48px 0;
+  }
+
+  .about-inner h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 14px;
+  }
+
+  .about-inner p {
+    margin: 18px auto 28px;
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.45;
+    padding: 0 8px;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 18px;
+  }
+
+  .team-member .name {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .team-member .role {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  /* Footer, restore usual style */
+  .site-footer {
+    padding: 40px 0;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-logos {
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 0;
+    flex-wrap: nowrap;
+  }
+
+  .logo-footer {
+    height: 62px;
+    max-width: 42vw;
+    width: auto;
+  }
+
+  .logo-divider {
+    display: block;
+    height: 52px;
+  }
+
+  .copyright {
+    margin-top: 18px;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  .footer-right h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .footer-right form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .footer-right input,
+  .footer-right textarea {
+    height: 42px;
+    padding: 10px;
+    font-size: 1.05rem;
+    border-radius: 8px;
+  }
+
+  .footer-right textarea {
+    height: 90px;
+  }
+
+  /* Keep button like usual */
+  .footer-right .btn {
+    margin-top: 3.5px;
+    margin-left: 0;
+    justify-self: center;
+    width: 140px;
+    padding: 8px 8px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  }
+
+  /* Popup, ONLY the two changes you asked for */
+  .figure-modal-backdrop {
+    padding: 8px;
+  }
+
+  .figure-modal-dialog {
+    width: calc(100vw - 16px);
+    max-width: calc(100vw - 16px);
+    margin: 0;
+  }
+
+  .figure-modal-frame,
+  .figure-modal-panel {
+    width: 100%;
+  }
+
+  /* Make grey filter pill above title smaller so it stays on one line */
+  .figure-modal-pill {
+    font-size: 0.82rem;
+    padding: 8px 12px;
+    line-height: 1.1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 46px);
+  }
+
+  /* Keep hotspot markers in desktop-relative positions, only scale the dot */
+  .hotspot-dot {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+  }
+
+  /* Do NOT force all tooltip boxes to one mobile position */
+  .hotspot-info {
+    max-width: 200px;
+    font-size: 12px;
+    padding: 9px 10px;
+  }
+}
+
+@media (max-width: 599px) {
+
+  /* 1. Header, slightly smaller logo + nav spacing */
+  .header-logo {
+    height: 42px;
+  }
+
+  .main-nav {
+    gap: 13px;
+  }
+
+  .main-nav a {
+    font-size: 0.9rem;
+  }
+
+  .site-header .btn {
+    padding: 1px 6px;
+    font-size: 0.9rem;
+  }
+
+
+  /* 2. Increase hero title line height */
+  .hero-title {
+    line-height: 1.25;
+  }
+
+
+  /* 3. Search bar slightly narrower */
+  .search-wrap {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* 4. Popups, move sidebar sections under main content */
+  .figure-modal-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .figure-modal-content {
+    width: 100%;
+  }
+
+  .figure-modal-sidebar {
+    width: 100%;
+    margin-top: 18px;
+  }
+
+/* 1 Footer order */
+.footer-inner{
+  flex-direction: column;
+}
+
+.footer-right{
+  order: 1;
+}
+
+.footer-left{
+  order: 2;
+}
+
+/* 2 Smaller card filter tags */
+.chip-small{
+  font-size: 0.72rem;
+  padding: 1px 6px;
+}
+
+/* 3 Remove indentation in popup steps */
+.figure-modal-steps{
+  padding-left: 0;
+}
+
+/* 4 Reduce popup white box padding */
+.figure-modal-content{
+  padding: 35px;
+}
+
+
+/* Slightly smaller hotspot markers */
+.hotspot-dot{
+  width: 12px;
+  height: 12px;
+  font-size: 6px;
+}
+
+/* Make contact form fields narrower on phones */
+.footer-right input,
+.footer-right textarea{
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+}
 /* =========================
    Interactive Hotspot System
    Reusable across all figures
