@@ -248,7 +248,7 @@ const figures = [
     topic:'Physiology',
     tags:['Feedback Loop','Diagram','Explanatory','Physiology','Calcium'],
     modalContent:{
-      whatIsThis:'This is a diagram illustrating calcium homeostasis, a fundamental regulatory mechanism in maintaining healthy calcium levels in the body.',
+      whatIsThis:'This diagram illustrates calcium homeostasis through a hormonal feedback loop, which maintains stable Ca²⁺ levels in the blood by activating physiological responses when levels rise above or fall below the normal range.',
       howToUnderstand:[
         'Step 1 - Notice how this diagram is divided into two main sections, which represent deviations from the normal calcium level of 10 mg/dL (the baseline separating the two). The top half describes the pathway to regulate increased Ca²⁺ levels (+10 mg/dL). The bottom half describes the pathway to regulate decreased Ca²⁺ levels (-10 mg/dL).',
         'Step 2 - Start from either pathway in the middle. For example, if I start from “decreased Ca²⁺ level” in the middle, my next step is to follow the thick, hot pink arrow that points to the light orange box. This arrow may be interpreted as a signal response to return calcium levels to homeostasis when a change is observed.',
@@ -259,9 +259,9 @@ const figures = [
         'Thick and pink arrows symbolize signaling responses.',
         'Thin and black arrows symbolize how one step triggers the next step.'
       ],
-      misconceptionTitle:'"The decrease in Ca²⁺ reabsorption in the kidneys causes the Ca²⁺ level in blood to decrease."',
-      misconceptionWrongHtml:'<strong>WRONG!</strong> Both osteoclast activity inhibition and a decrease in Ca²⁺ reabsorption in kidneys are responsible.',
-      misconceptionDetail:'The black arrow pointing from "Ca²⁺ reabsorption in the kidneys decreases" to "Ca²⁺ level in blood decreases" might cause this confusion. Remember that the arrow symbolizes that BOTH mechanisms contribute to reduction in Ca²⁺ in blood.'
+      misconceptionTitle:'"The decrease in Ca²⁺ reabsorption in the kidneys directly causes the Ca²⁺ level in blood to decrease."',
+      misconceptionWrongHtml:'',
+      misconceptionDetail:'In this diagram, thin black arrows show the sequence of events, while thick pink arrows represent major hormonal signaling responses. The arrow from "Ca²⁺ reabsorption in the kidneys decreases" to "Ca²⁺ level in blood decreases" should not be interpreted as a single direct cause. Instead, the drop in blood Ca²⁺ results from multiple physiological responses acting together, including reduced kidney reabsorption and inhibited osteoclast activity.'
     }
   }
 ];
