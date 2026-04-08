@@ -162,17 +162,17 @@ const figures = [
       howToUnderstand:[
         'Step 1 - Box and whisker plots display categorical data on the x-axis with quantitative dependent variables on the y-axis. In this plot, the different categories of light conditions represent the x-axis, while plant height in centimeters represents the y-axis.',
         'Step 2 - Identify the four main characteristics of boxplots: the boxes display the interquartile range, the median is represented by a horizontal line, the whiskers define the complete range, and the outliers are shown as dots.',
-        'Step 3 - Next, determine what the lengths of the interquartile range and whiskers represent. Note that longer interquartile ranges and whiskers mean that there is more variability in the data...',
-        'Step 4 - Then, infer the skewness of the data from observing where the median lies within the interquartile range and comparing the lengths of the upper and lower whiskers...',
-        'Step 5 - Compare boxplots with other boxplots. Note any overlap between datasets...'
+        'Step 3 - Next, determine what the lengths of the interquartile range and whiskers represent. Note that longer interquartile ranges and whiskers mean that there is more variability in the data and vice versa.',
+        'Step 4 - Then, observe where the median sits on each box plot. Does it sit on the middle, upper half, or lower half of the boxes? For example, the median in the boxplot of the Artificial Light category sits closer to the lower part of the boxes, whereas the medians of the other boxplots sit right in the middle.',
+        'Step 5 - Compare boxplots with other boxplots. Note any overlap between boxplots such as overlapping whiskers, interquartile ranges, and medians, which may signify similarity between boxplots.'
       ],
       quickFacts:[
         'Boxes represent the interquartile range, which is the middle 50% of the data.',
         'Upper and lower whiskers represent the top and bottom 25% of data respectively (or the data outside of the middle 50%).'
       ],
-      misconceptionTitle:'',
+      misconceptionTitle:'"The upper and lower whiskers of a box plot represent the maximum and minimum values, respectively."',
       misconceptionWrongHtml:'',
-      misconceptionDetail:''
+      misconceptionDetail:'Whiskers do not always represent the minimum and maximum values of boxplots. For instance, in the box plot of the Full Sun category, the lowest value does not occur in the lower whisker because of the outlier that occurs at 10 cm.'
     }
   },
   {
