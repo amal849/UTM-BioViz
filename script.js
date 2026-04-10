@@ -259,9 +259,9 @@ const figures = [
         'Thick and pink arrows symbolize signaling responses.',
         'Thin and black arrows symbolize how one step triggers the next step.'
       ],
-      misconceptionTitle:'"The decrease in Ca²⁺ reabsorption in the kidneys directly causes the Ca²⁺ level in blood to decrease."',
+      misconceptionTitle:'"The thin black arrows show how one singular event causes another singular event."',
       misconceptionWrongHtml:'',
-      misconceptionDetail:'In this diagram, thin black arrows show the sequence of events, while thick pink arrows represent major hormonal signaling responses. The arrow from "Ca²⁺ reabsorption in the kidneys decreases" to "Ca²⁺ level in blood decreases" should not be interpreted as a single direct cause. Instead, the drop in blood Ca²⁺ results from multiple physiological responses acting together, including reduced kidney reabsorption and inhibited osteoclast activity.'
+      misconceptionDetail:'This diagram does not make good use of the black arrows. For example, the arrow from “Ca²⁺ reabsorption in the kidneys decreases” to “Ca²⁺ level in blood decreases” should not be interpreted as a single direct cause. Instead, the drop in blood Ca²⁺ results from both events: reduced kidney reabsorption and inhibited osteoclast activity.'
     }
   }
 ];
